@@ -1,4 +1,4 @@
-package io.candidate.ranker.model;
+package com.redrob.ranker.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
