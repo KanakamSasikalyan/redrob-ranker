@@ -1,4 +1,12 @@
 package com.redrob.ranker.scoring;
 
-public class CandidateFeatures {
-}
+import java.util.List;
+
+public record CandidateFeatures(
+        String candidateId,
+        String currentTitle,
+        double yearsExperience,
+        String candidateText,
+        List<String> skillNames,
+        List<String> titleHistory
+) {}
